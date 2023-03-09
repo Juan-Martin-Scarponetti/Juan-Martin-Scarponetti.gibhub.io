@@ -65,7 +65,7 @@ nav {
   
   /* secciones */
   section {
-    background-color: #b6e490;
+    background: linear-gradient(to bottom, rgb(60, 255, 0), rgb(196, 236, 231));
     padding: 40px;
     margin-bottom: 30px;
   }
