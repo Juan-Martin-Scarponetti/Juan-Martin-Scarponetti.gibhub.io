@@ -1,0 +1,79 @@
+nav {
+    background-color: #333;
+    color: #FFF;
+    font-size: 25px; /* tamaño de letra en la barra */
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    height: 60px;
+  }
+  nav ul li {
+    list-style: none;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  nav ul li a:hover {
+    background-color: #FFF;
+    color: #333;
+  }
+  /* barra de navegación */
+  nav {
+    background-color: #3da81f;
+    color: #FFF;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    list-style: none;
+    margin-right: 30px;
+  }
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 40px;
+    transition: all 0.3s ease;
+  }
+  nav ul li a:hover {
+    background-color: #FFF;
+    color: #333;
+  }
+  
+  /* cabecera */
+  header {
+    background-color: #f1f1f1;
+    padding: 40px;
+    text-align: center;
+  }
+  header img {
+    border-radius: 50%;
+    max-width: 200px;
+  }
+  
+  /* secciones */
+  section {
+    background: linear-gradient(to bottom, rgb(213, 241, 197), rgb(235, 227, 212));
+    padding: 40px;
+    margin-bottom: 30px;
+    opacity: 0.85; /* opacidad */
+  }
+  
+  body {
+    background-image: url('https://eikonos.com/wp-content/webp-express/webp-images/uploads/2016/01/diseno-web-responsive.jpg.webp');
+    background-color: rgba(255, 255, 255, 0.2); /* fondo semi-transparente */
+   
+  }
+ 
