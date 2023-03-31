@@ -62,6 +62,20 @@ nav {
     border-radius: 50%;
     max-width: 200px;
   }
+  a[href$=".pdf"] {
+    display: inline-block;
+    background-color: #5f55f5;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  a[href$=".pdf"]:hover {
+    background-color: #666;
+  }
+  
   
   /* secciones */
   section {
@@ -70,10 +84,27 @@ nav {
     margin-bottom: 30px;
     opacity: 0.85; /* opacidad */
   }
+  section-animation-start {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  section {
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  section:hover {
+    border-color: #666;
+  }
+  
   
   body {
     background-image: url('https://eikonos.com/wp-content/webp-express/webp-images/uploads/2016/01/diseno-web-responsive.jpg.webp');
     background-color: rgba(255, 255, 255, 0.2); /* fondo semi-transparente */
    
   }
+  
  
