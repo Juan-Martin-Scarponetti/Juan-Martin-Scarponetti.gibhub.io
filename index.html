@@ -3,24 +3,41 @@
   <head>
     <title>Juan Martín Scarponetti</title>
     <script src="curriculum.js"></script>
-    <link rel="stylesheet" type="text/css" href="curriculum.css">
+    <link rel="stylesheet" type="text/css" href="PaginaWebCurriculum/curriculum.css">
     <link rel="icon" href="html.png" type="image/x-icon">
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="#datospersonales">Datos Personales</a></li>
-        <li><a href="#educacion">Educación</a></li>
-        <li><a href="#experiencia">Experiencia Laboral</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#datospersonales"><span class="icono-datos"></span>Datos Personales</a></li>
+        <li><a href="#educacion"><span class="icono-educacion"></span>Educación</a></li>
+        <li><a href="#experiencia"><span class="icono-experiencia"></span>Experiencia Laboral</a></li>
+        <li><a href="#habilidades"><span class="icono-habilidades"></span>Habilidades</a></li>
+        <li><a href="#proyectos"><span class="icono-proyectos"></span>Proyectos</a></li>
       </ul>
     </nav>
+    
     <header>
-      <img src=https://pps.whatsapp.net/v/t61.24694-24/74924893_682117349261514_5145428433629546806_n.jpg?ccb=11-4&oh=01_AdSuYmkWG1EVNAGQ70rPQjMU-p2VasSrAzeOEHjDq1Libw&oe=64157FA2 alt="Foto de perfil">
-      <h1>Juan Martín Scarponetti</h1>
+      <img class="animated" src="https://pps.whatsapp.net/v/t61.24694-24/74924893_682117349261514_5145428433629546806_n.jpg?ccb=11-4&oh=01_AdSvdHoG8O3zXDUr9JRrlOoITW79bPAxFg53mW6GgDNamA&oe=64332962" onmouseover="agrandarImagen(this)" onmouseout="restaurarImagen(this)">
+        <h1>Juan Martín Scarponetti</h1>
     </header>
+    <style>
+        .animated {
+          animation: fadeIn 1s ease-in;
+        }
+      
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+      </style>
+      
     <section id="datospersonales">
+      <img src="https://img.freepik.com/vector-premium/insignia-icono-3d-datos-personales_165488-4638.jpg?w=2000" alt="Icono de programación" style="width: 40px;">
         <h2>Datos Personales</h2>
         <ul>
           <li>45 años</li>
@@ -31,6 +48,7 @@
         </ul>
       </section>
     <section id="educacion">
+      <img src="https://img.freepik.com/vector-premium/icono-educacion-elemento-simple-coleccion-creatividad-icono-educacion-creativa-plantillas-diseno-web-infografias-mas_676904-1532.jpg?w=2000" alt="Icono de programación" style="width: 40px;">
       <h2>Educación</h2>
       <ul>
         <li>Programador WEB</li>
@@ -38,6 +56,7 @@
       </ul>
     </section>
     <section id="experiencia">
+      <img src="https://static.vecteezy.com/system/resources/previews/017/339/141/non_2x/3d-icon-programming-tab-free-png.png" alt="Icono de programación" style="width: 40px;">
       <h2>Experiencia Laboral</h2>
       <ul>
         <li>Argentina Programa 4.0</li>
@@ -45,13 +64,16 @@
       </ul>
     </section>
     <section id="habilidades">
-      <h2>Habilidades</h2>
+      <img src="https://c8.alamy.com/compes/w4prwk/formacion-empresarial-concepto-de-educacion-corporativa-y-trabajar-destrezas-o-habilidades-profesionales-idea-y-estudiante-de-ingenieria-3d-como-un-icono-de-la-ilustracion-w4prwk.jpg" alt="Icono de programación" style="width: 40px;">
+        
+        <h2>Habilidades</h2>
       <ul>
         <li>Diseño WEB</li>
         <li>Progamación JavaScript</li>
       </ul>
     </section>
     <section id="proyectos">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWf0csrh7GynlOSB_aVcD__4Lqc-G75PKLA&usqp=CAU" alt="Icono de programación" style="width: 40px;">
       <h2>Proyectos</h2>
       <ul>
         <li>#SeProgramar</li>
@@ -59,7 +81,9 @@
       </ul>
     </section>
       <a href="archivo.pdf" download>Descargar mi curriculum en PDF</a>
+      <div id="particles-js"></div>
 
+     
     <footer>
       <p>Proyecto Final - Argentina Programa 4.0</p>
     </footer>
